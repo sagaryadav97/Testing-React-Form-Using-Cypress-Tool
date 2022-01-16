@@ -1,3 +1,8 @@
+# Testing with Cypress.
+
+Auto fills the form. throws error if test failed.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
