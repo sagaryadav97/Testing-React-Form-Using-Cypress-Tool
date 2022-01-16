@@ -1,0 +1,16 @@
+describe("Test page", () => {
+  it("init ", () => {
+    cy.visit("/")
+    // cy.get("#one").should("have.value")
+    // cy.get("#two").should("have.value")
+    cy.get('#submitone').click()
+    cy.get('#name').type("sagar")
+    cy.get('#number').type("1234567890")
+    cy.get('#email').type("sagar@gmail.com")
+    cy.get('#usersubmitone').click()
+    cy.get('#bankname').type("Canara")
+    cy.get('#accnumber').type("000000000")
+    cy.get('#ifsc').type("sagar000")
+    cy.get('#banksubmitone').click()
+  })
+})
